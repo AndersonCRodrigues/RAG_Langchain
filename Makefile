@@ -7,12 +7,12 @@ VENV=.venv
 requirements:
 	@pip freeze > requirements.txt
 
-install:
+venv:
 	@python3.11 -m venv $(VENV)
-	@$(VENV)/bin/pip install -r requirements.txt
+	@/bin/zsh -i -c "source $(VENV)/bin/activate"
 
-activate:
-	@echo "Execute: source $(VENV)/bin/activate"
+install:
+	@$(VENV)/bin/pip install -r requirements.txt
 
 mongo:
 	@docker run -d -p 27017:27017 \
