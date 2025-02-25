@@ -5,7 +5,7 @@ pinecone-client==4.1.2
 PyMuPDF==1.24.7
 langchain==0.2.7
 wikipedia==1.4.0
-openai==1.35.13
+openai==1.58.1
 numpy==1.26.4
 streamlit==1.36.0
 numexpr==2.10.1
