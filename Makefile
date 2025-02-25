@@ -8,7 +8,7 @@ requirements:
 	@pip freeze > requirements.txt
 
 install:
-	@python3 -m venv $(VENV)
+	@python3.11 -m venv $(VENV)
 	@$(VENV)/bin/pip install -r requirements.txt
 
 activate:
