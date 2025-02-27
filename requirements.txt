@@ -8,6 +8,7 @@ asttokens==3.0.0
 attrs==25.1.0
 autopep8==2.3.2
 beautifulsoup4==4.13.3
+black==25.1.0
 blinker==1.9.0
 cachetools==5.5.2
 certifi==2025.1.31
@@ -33,6 +34,7 @@ google-api-python-client==2.161.0
 google-auth==2.38.0
 google-auth-httplib2==0.2.0
 google-generativeai==0.7.2
+google_search_results==2.4.2
 googleapis-common-protos==1.68.0
 greenlet==3.1.1
 grpcio==1.70.0
@@ -86,6 +88,7 @@ packaging==24.2
 pandas==2.2.3
 pandas-datareader==0.10.0
 parso==0.8.4
+pathspec==0.12.1
 pexpect==4.9.0
 pillow==10.4.0
 pinecone-client==4.1.2
