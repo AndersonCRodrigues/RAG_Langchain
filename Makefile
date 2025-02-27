@@ -26,3 +26,9 @@ wsgi:
 
 dev:
 	@$(VENV)/bin/python wsgi.py
+
+run:
+	@streamlit run streamlit/app.py
+
+sidebar:
+	@streamlit run streamlit/main.py
