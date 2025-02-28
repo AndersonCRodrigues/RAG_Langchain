@@ -123,4 +123,5 @@ cache_dir/
 *.log.*
 *.log-*
 *.log/*
-*.log.txt 
+*.log.txt
+docs
